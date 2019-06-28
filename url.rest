@@ -1,0 +1,16 @@
+GET http://localhost:8080/
+
+###
+POST http://localhost:8080/contacts
+Content-Type: application/json
+
+{
+"Name": "Dffhfj",
+"Phone": "3fhfjj8"
+}
+
+###
+
+GET http://localhost:8080/contacts/list
+
+###
